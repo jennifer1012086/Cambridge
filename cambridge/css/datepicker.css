@@ -1,0 +1,66 @@
+.ui-widget-header {
+    border: 0;
+    background: #fff;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default {
+    border: 0;
+    background: #fff;
+    text-align: center;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 0;
+    color: #0071c2;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.ui-button:hover,
+.ui-button:focus {
+    background: #e6e6e6;
+}
+
+.ui-datepicker td {
+    border: 0;
+    padding: 0;
+    width: 36px;
+    line-height: 36px;
+}
+
+.ui-widget.ui-widget-content {
+    border: 0;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    z-index: 2000 !important;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border: 1px solid #003eff;
+    background: #007fff;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    /* border: 1px solid #003eff; */
+    color: #fff;
+    background: #0071c2;
+}
